@@ -3,4 +3,4 @@ pipeline:
     image: byrnedo/alpine-curl
     commands:
       - ifconfig
-      - curl -k https://172.17.21.68:5000
+      - curl -k https://172.17.21.68:5000 --max-time 5
