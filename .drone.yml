@@ -1,7 +1,6 @@
 pipeline:
   test:
     image: byrnedo/alpine-curl
-    network_mode: host
     commands:
       - ifconfig
       - curl -k https://172.17.21.68:5000
